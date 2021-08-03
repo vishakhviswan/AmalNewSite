@@ -120,6 +120,7 @@ a:focus, a:hover {
 /*-- Navigation --*/
 
 .navigation {
+	margin-top: 1em;
 	position: absolute;
 	top: 60%;
 	left: 0;
