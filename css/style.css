@@ -244,6 +244,14 @@ a:focus, a:hover {
 .ch-info-back h3 a:hover {
 	color: #22ffb9;
 }
+@media (max-width:800px){
+	.ch-info-wrap {
+	top: 10px;
+	left: 10px;
+	box-shadow: 0 0 0 10px rgba(255,255,255,0.2), inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+
+}
 
 /*-- //Navigation --*/
 
@@ -662,8 +670,6 @@ li.aitsaitsresumewthreeli-1 {
 
 /*-- //Resume --*/
 
-
-
 /*-- Work --*/
 
 .work-left {
@@ -726,6 +732,7 @@ li.aitsaitsresumewthreeli-1 {
 }
 
 /*-- //Work --*/
+
 
 
 
@@ -2438,3 +2445,57 @@ form.contact_form {
 
 
 /*-- //Responsive-Code --*/
+
+/* my changes */
+#check{
+	display: none;
+}
+.mobileResume{
+	display: none;
+}
+@media (max-width:800px){
+	.mobileResume{
+		display: block;
+	}
+	.aitsresumewthree{
+		display: none;
+	}
+}
+.companyDtls{
+	align-items: center;
+	padding: 1em;
+}
+.companyDtls h4{
+    font-size: 1.2em;
+	background: #607d8b;
+	padding: 12px 30px;
+	color: #fff;
+	width: fit-content;
+	
+}
+.companyDtls h3{
+	margin-top: 15px;
+	font-size: 20px;
+	margin-bottom: 15px;
+	border: 1px solid #000;
+	display: inline-block;
+	padding: 10px 30px;
+}
+.workSmall {
+	padding: 50px 0;
+	position: relative;
+}
+.mainTitleSmall{
+	margin-top: 50px;
+}
+
+.mainTitleSmall h3 {
+	font-weight: bolder;
+}
+
+.aitsresumewthree h4.title2 {
+	width: 14%;
+}
+.titleSmall{
+	font-weight: bold;
+}
