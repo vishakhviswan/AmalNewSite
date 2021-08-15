@@ -2499,3 +2499,81 @@ form.contact_form {
 .titleSmall{
 	font-weight: bold;
 }
+
+.home__blob{
+    width: 230;
+    fill:hsl(250, 90%, 57%);
+}
+
+.home__blob-img{
+    width: 200px;
+}
+
+@media screen and (max-width:767px){
+	.home__img{
+		margin-top: 10px;
+        margin-right: 25px;
+	}
+	
+}
+@media screen and (max-width:412px) {
+	.home__img{
+		margin-top: -170px;
+        margin-bottom: -152px;
+        
+	}
+	
+}
+
+/* mobile Qualification 2 */
+
+.qualification__sections{
+	padding: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+
+.qualification__icon{
+    font-size: large;
+}
+
+.qualification__data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification__title{
+	margin-left: -55px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.qualification__subtitle{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.qualification__calender{
+    font-size: 1rem;
+    color: rgb(54, 50, 50);
+}
+
+.qualification__rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.qualification__line{
+    background-color: blueviolet;
+    display: block;
+    width: 1px;
+    height: 100%;
+    transform: translate(6px, -7px);
+}
