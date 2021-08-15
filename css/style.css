@@ -2450,11 +2450,13 @@ form.contact_form {
 #check{
 	display: none;
 }
-.mobileResume{
+.mobileResume .resume__content{
 	display: none;
 }
-@media (max-width:800px){
-	.mobileResume{
+
+
+@media screen and (max-width:800px){
+	.mobileResume .resume__content{
 		display: block;
 	}
 	.aitsresumewthree{
