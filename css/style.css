@@ -2586,3 +2586,15 @@ form.contact_form {
 .about__buttons{
         justify-content: initial;
     }
+.button{
+    display: inline-block;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
