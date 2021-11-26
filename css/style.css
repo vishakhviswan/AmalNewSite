@@ -2579,3 +2579,10 @@ form.contact_form {
     height: 100%;
     transform: translate(6px, -7px);
 }
+.about__buttons{
+    display: flex;
+    justify-content: center;
+}
+.about__buttons{
+        justify-content: initial;
+    }
